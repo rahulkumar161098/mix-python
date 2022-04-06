@@ -18,3 +18,28 @@ class Increament():
 
 e=Employee(101, 'Rahul', 20000)
 Increament.inc(e)
+
+
+# *********** inner class ***********
+#  The class which is decleared inside another class
+# class Car:
+#     ....
+#     class Engine:
+#         .....
+
+
+class Outer:
+    def __init__(self):
+        print('Outer class creations')
+    class Inner:
+        def __init__(slef):
+            print('Inner class creations')
+        def m1(self):
+            print('Inner class method')
+
+# o=Outer()
+# i=o.Inner()
+# i.m1()
+
+Outer().Inner().m1()
+Outer().Inner()

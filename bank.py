@@ -1,7 +1,9 @@
 import sys
 
+# Bank System 
+
 class Customer:
-    bankName= 'no Bank'
+    bankName= 'YesBank'
     def __init__(self, name, balance=0):
         self.name= name
         self.balance= balance
