@@ -8,7 +8,7 @@ def check_empty(stack):
 
 def push(stack, item):
     stack.append(item)
-    print('pushed item '+ item)
+    print('pushed item ' + item)
     
 def pop(stack):
     if create_stack()==0:
